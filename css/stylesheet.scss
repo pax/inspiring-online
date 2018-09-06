@@ -48,6 +48,10 @@ h1, h2 {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
   }
+  &:not(:first-of-type) a:visited { //skips the nav tile 
+    color: #BAA;  
+}
+
 }
 
 header {
@@ -60,18 +64,6 @@ header {
 .noscript {
   margin: auto;
   max-width: 500px;
-}
-
-.title-tile {
-  max-width: 250px;
-  padding: 15px;
-  border: 5px solid #fff;
-  box-shadow: 9px 9px #fff;
-  margin: auto;
-
-  a {
-    color: #f9f9f9;
-  }
 }
 
 h1 {
